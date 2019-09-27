@@ -54,14 +54,13 @@ namespace PierresBakery
 				foreach(string line in arr )
 				Console.WriteLine(line);
 
-            Console.WriteLine("Welcome to Pierre's Bakery! I am currently having a sale! one baguette for $5 or buy two get one free. I also have a sale on pastries, one for $2 or 3 for $5! What can I get you today? (b, 3b, p, 3p)");
+            Console.WriteLine("Welcome to Pierre's Bakery! I am currently having a sale! one baguette for $5(b), or buy two get one free(3b). I also have a sale on pastries(p), one for $2 or 3 for $5(3p)! What can I get you today?");
             string customerChoice = Console.ReadLine();
-            Console.WriteLine(customerChoice);
 
             // single loaf of bread
             if(customerChoice == "b")
             {
-                Console.WriteLine("What kind of bread would you like?");
+                Console.WriteLine("What kind of baguette would you like?");
                 string breadType = Console.ReadLine();
 
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
@@ -74,21 +73,29 @@ namespace PierresBakery
                     if (drink == "F" || drink == "f")
                     {
                         int newPrice = (int)(1 + singleBread.Price);
+                        Console.WriteLine(singleBread.Offer + ": " + breadType + " $" + singleBread.Price);
+                        Console.WriteLine("Fruit Juice $1");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "S" || drink == "s")
                     {
                         int newPrice = (int)(2 + singleBread.Price);
+                        Console.WriteLine(singleBread.Offer + ": " + breadType + " $" + singleBread.Price);
+                        Console.WriteLine("Soda $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "C" || drink == "c")
                     {
                         int newPrice = (int)(4 + singleBread.Price);
+                        Console.WriteLine(singleBread.Offer + ": " + breadType + " $" + singleBread.Price);
+                        Console.WriteLine("Coffee $4");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "T" || drink == "t")
                     {
                         int newPrice = (int)(2 + singleBread.Price);
+                        Console.WriteLine(singleBread.Offer + ": " + breadType + " $" + singleBread.Price);
+                        Console.WriteLine("Tea $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                 }
@@ -120,7 +127,7 @@ namespace PierresBakery
 				foreach(string line in dol)
 				Console.WriteLine(line); 
                 
-                 Console.WriteLine("your total for " + singleBread.Offer + " is $" + singleBread.Price);
+                  Console.WriteLine("your total for " + singleBread.Offer +": "+ breadType + " $" + singleBread.Price);
                  System.Environment.Exit(1);
                 }
             }
@@ -141,21 +148,29 @@ namespace PierresBakery
                     if (drink == "F" || drink == "f")
                     {
                         int newPrice = (int)(1 + breadDeal.Price);
+                        Console.WriteLine(breadDeal.Offer + ": " + breadType + " $" + breadDeal.Price);
+                        Console.WriteLine("Fruit Juice $1");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "S" || drink == "s")
                     {
                         int newPrice = (int)(2 + breadDeal.Price);
+                        Console.WriteLine(breadDeal.Offer + ": " + breadType + " $" + breadDeal.Price);
+                        Console.WriteLine("Soda $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "C" || drink == "c")
                     {
                         int newPrice = (int)(4 + breadDeal.Price);
+                        Console.WriteLine(breadDeal.Offer + ": " + breadType + " $" + breadDeal.Price);
+                        Console.WriteLine("Coffee $4");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "T" || drink == "t")
                     {
                         int newPrice = (int)(2 + breadDeal.Price);
+                        Console.WriteLine(breadDeal.Offer + ": " + breadType + " $" + breadDeal.Price);
+                        Console.WriteLine("Tea $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                 }
@@ -186,7 +201,8 @@ namespace PierresBakery
 				Console.WriteLine("\n\n");
 				foreach(string line in dol)
 				Console.WriteLine(line);
-                   Console.WriteLine("your total for " + breadDeal.Offer + " is $" + breadDeal.Price);
+
+                   Console.WriteLine("your total for " + breadDeal.Offer +": "+ breadType + " $" + breadDeal.Price);
                     System.Environment.Exit(1);    
                 }
             }
@@ -207,21 +223,29 @@ namespace PierresBakery
                     if (drink == "F" || drink == "f")
                     {
                         int newPrice = (int)(1 + singlePastry.Price);
+                        Console.WriteLine(singlePastry.Offer + ": " + pastryType + " $" + singlePastry.Price);
+                        Console.WriteLine("Fruit Juice $1");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "S" || drink == "s")
                     {
                         int newPrice = (int)(2 + singlePastry.Price);
+                        Console.WriteLine(singlePastry.Offer + ": " + pastryType + " $" + singlePastry.Price);
+                        Console.WriteLine("Soda $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "C" || drink == "c")
                     {
                         int newPrice = (int)(4 + singlePastry.Price);
+                        Console.WriteLine(singlePastry.Offer + ": " + pastryType + " $" + singlePastry.Price);
+                        Console.WriteLine("Coffee $4");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "T" || drink == "t")
                     {
                         int newPrice = (int)(2 + singlePastry.Price);
+                        Console.WriteLine(singlePastry.Offer + ": " + pastryType + " $" + singlePastry.Price);
+                        Console.WriteLine("Tea $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                 }
@@ -252,7 +276,7 @@ namespace PierresBakery
 				Console.WriteLine("\n\n");
 				foreach(string line in dol)
 				Console.WriteLine(line);
-                   Console.WriteLine("your total for " + singlePastry.Offer + " is $" + singlePastry.Price);
+                     Console.WriteLine("your total for " + singlePastry.Offer +": "+ pastryType + " $" + singlePastry.Price);
                     System.Environment.Exit(1);    
                 }
             }
@@ -260,7 +284,7 @@ namespace PierresBakery
             // 3 pastries for $5
             if (customerChoice == "3p")
             {
-                Console.WriteLine("What kind of pastry would you like?");
+                Console.WriteLine("What kind of pastries would you like?");
                 string pastryType = Console.ReadLine();
 
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
@@ -326,7 +350,7 @@ namespace PierresBakery
 				Console.WriteLine("\n\n");
 				foreach(string line in dol)
 				Console.WriteLine(line);
-                   Console.WriteLine("your total for " + threePastries.Offer + " is $" + threePastries.Price);
+                   Console.WriteLine("your total for " + threePastries.Offer +": "+ pastryType + " $" + threePastries.Price);
                     System.Environment.Exit(1);    
                 }
             }
