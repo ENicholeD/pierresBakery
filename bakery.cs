@@ -103,7 +103,7 @@ namespace PierresBakery
                                 @"         ,OWMMMMMMMMMMMWX0xl,.          ",
                                 @"          .:x0NWMMMMMMMMMMMMW0c.        ",
                                 @"             ..;cxXMMMWWMMMMMMWd.       ",
-                                @"                  kMMK cOWMMMMMX:       ",
+                                @"                  kMMK.cOWMMMMMX:       ",
                                 @"       .lxkOO00   kMM0  .OMMMMMN:       ",
                                 @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
                                 @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
@@ -167,7 +167,7 @@ namespace PierresBakery
                                 @"         ,OWMMMMMMMMMMMWX0xl,.          ",
                                 @"          .:x0NWMMMMMMMMMMMMW0c.        ",
                                 @"             ..;cxXMMMWWMMMMMMWd.       ",
-                                @"                  kMMK cOWMMMMMX:       ",
+                                @"                  kMMK.cOWMMMMMX:       ",
                                 @"       .lxkOO00   kMM0  .OMMMMMN:       ",
                                 @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
                                 @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
@@ -230,7 +230,7 @@ namespace PierresBakery
                                 @"         ,OWMMMMMMMMMMMWX0xl,.          ",
                                 @"          .:x0NWMMMMMMMMMMMMW0c.        ",
                                 @"             ..;cxXMMMWWMMMMMMWd.       ",
-                                @"                  kMMK cOWMMMMMX:       ",
+                                @"                  kMMK.cOWMMMMMX:       ",
                                 @"       .lxkOO00   kMM0  .OMMMMMN:       ",
                                 @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
                                 @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
@@ -248,7 +248,7 @@ namespace PierresBakery
                 }
             }
             
-            // 3 patries for $5
+            // 3 pastries for $5
             if (customerChoice == "3p")
             {
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
@@ -293,7 +293,7 @@ namespace PierresBakery
                                 @"         ,OWMMMMMMMMMMMWX0xl,.          ",
                                 @"          .:x0NWMMMMMMMMMMMMW0c.        ",
                                 @"             ..;cxXMMMWWMMMMMMWd.       ",
-                                @"                  kMMK cOWMMMMMX:       ",
+                                @"                  kMMK.cOWMMMMMX:       ",
                                 @"       .lxkOO00   kMM0  .OMMMMMN:       ",
                                 @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
                                 @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
