@@ -36,6 +36,8 @@ namespace PierresBakery
             if(customerChoice == "b")
             {
                 Console.WriteLine(singleBread.Offer + " for $" + singleBread.Price);
+                Console.WriteLine("Would you like to add a drink? (Y/N");
+                Console.ReadLine();
             }
 
             if (customerChoice == "3b")
