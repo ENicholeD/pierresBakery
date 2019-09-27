@@ -61,6 +61,9 @@ namespace PierresBakery
             // single loaf of bread
             if(customerChoice == "b")
             {
+                Console.WriteLine("What kind of bread would you like?");
+                string breadType = Console.ReadLine();
+
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
                 string adding = Console.ReadLine();
                 if (adding == "Y" || adding == "y")
@@ -125,6 +128,9 @@ namespace PierresBakery
             // buy two get one free bread
             if (customerChoice == "3b")
             {
+                Console.WriteLine("What kind of bread would you like?");
+                string breadType = Console.ReadLine();
+
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
                 string adding = Console.ReadLine();
                 if (adding == "Y" || adding == "y")
@@ -188,6 +194,9 @@ namespace PierresBakery
             // one pastry for $2
             if (customerChoice == "p")
             {
+                Console.WriteLine("What kind of pastry would you like?");
+                string pastryType = Console.ReadLine();
+
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
                 string adding = Console.ReadLine();
                 if (adding == "Y" || adding == "y")
@@ -251,6 +260,9 @@ namespace PierresBakery
             // 3 pastries for $5
             if (customerChoice == "3p")
             {
+                Console.WriteLine("What kind of pastry would you like?");
+                string pastryType = Console.ReadLine();
+
                 Console.WriteLine("Would you like to add a drink? (Y/N)");
                 string adding = Console.ReadLine();
                 if (adding == "Y" || adding == "y")
@@ -261,21 +273,29 @@ namespace PierresBakery
                     if (drink == "F" || drink == "f")
                     {
                         int newPrice = (int)(1 + threePastries.Price);
+                        Console.WriteLine(threePastries.Offer + ": " + pastryType + " $" + threePastries.Price);
+                        Console.WriteLine("Fruit Juice $1");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "S" || drink == "s")
                     {
                         int newPrice = (int)(2 + threePastries.Price);
+                        Console.WriteLine(threePastries.Offer + ": " + pastryType + " $" + threePastries.Price);
+                        Console.WriteLine("Soda $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "C" || drink == "c")
                     {
                         int newPrice = (int)(4 + threePastries.Price);
+                        Console.WriteLine(threePastries.Offer + ": " + pastryType + " $" + threePastries.Price);
+                        Console.WriteLine("Coffee $4");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                     if (drink == "T" || drink == "t")
                     {
                         int newPrice = (int)(2 + threePastries.Price);
+                        Console.WriteLine(threePastries.Offer + ": " + pastryType + " $" + threePastries.Price);
+                        Console.WriteLine("Tea $2");
                         Console.WriteLine("your total is $" + newPrice);
                     }
                 }
