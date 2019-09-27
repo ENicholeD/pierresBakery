@@ -10,6 +10,7 @@ namespace PierresBakery
     }
     public class Program
     {
+        
         public static void Main()
         {
             Bakery singleBread = new Bakery();
@@ -25,7 +26,7 @@ namespace PierresBakery
             singlePastry.Price = 2;
             
             Bakery threePastries = new Bakery();
-            threePastries.Offer = "3 for $5 pastries";
+            threePastries.Offer = "3 pastries";
             threePastries.Price = 5;
 
             Console.WriteLine("Welcome to Pierre's Bakery! I am currently having a sale! one baguette for $5 or buy two get one free. I also have a sale on pastries, one for $2 or 3 for $5! What can I get you today? (b, 3b, p, 3p)");
@@ -45,6 +46,11 @@ namespace PierresBakery
             if (customerChoice == "p")
             {
                 Console.WriteLine(singlePastry.Offer + " for $" + singlePastry.Price);
+            }
+            
+            if (customerChoice == "3p")
+            {
+                Console.WriteLine(threePastries.Offer + " for $" + threePastries.Price);
             }
         }
     }
