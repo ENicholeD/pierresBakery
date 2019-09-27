@@ -91,8 +91,34 @@ namespace PierresBakery
                 }
                 else
                 {
-                    Console.WriteLine("your total for " + singleBread.Offer + " is $" + singleBread.Price);
-                    System.Environment.Exit(1);    
+                    var dol = new[]
+							{   
+                                @"                 .:xxl.                 ",
+                                @"            .,codONMMNOdol;.            ",
+                                @"          'dKWMMMMMMMMMMMMWXk;          ",
+                                @"         :KMMMMMNKNMMWXWMMMMMNd.        ",
+                                @"        '0MMMMMXc kMMK cKNXXKOd'        ",
+                                @"        ;XMMMMMXl OMM0                  ",
+                                @"        .OMMMMMMWXNMMXo,..              ",
+                                @"         ,OWMMMMMMMMMMMWX0xl,.          ",
+                                @"          .:x0NWMMMMMMMMMMMMW0c.        ",
+                                @"             ..;cxXMMMWWMMMMMMWd.       ",
+                                @"                  kMMK cOWMMMMMX:       ",
+                                @"       .lxkOO00   kMM0  .OMMMMMN:       ",
+                                @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
+                                @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
+                                @"          ,dKNMMMMMMMMMMMMWXk:.         ",
+                                @"            .,:lokXMMNOdoc;.            ",
+                                @"                 .kMM0'                 ",
+                                @"                 ;ll:.                  ",
+							};
+
+				Console.WriteLine("\n\n");
+				foreach(string line in dol)
+				Console.WriteLine(line); 
+                
+                 Console.WriteLine("your total for " + singleBread.Offer + " is $" + singleBread.Price);
+                 System.Environment.Exit(1);
                 }
             }
             
@@ -129,6 +155,31 @@ namespace PierresBakery
                 }
                 else
                 {
+                    var dol = new[]
+							{   
+                                @"                 .:xxl.                 ",
+                                @"            .,codONMMNOdol;.            ",
+                                @"          'dKWMMMMMMMMMMMMWXk;          ",
+                                @"         :KMMMMMNKNMMWXWMMMMMNd.        ",
+                                @"        '0MMMMMXc kMMK cKNXXKOd'        ",
+                                @"        ;XMMMMMXl OMM0                  ",
+                                @"        .OMMMMMMWXNMMXo,..              ",
+                                @"         ,OWMMMMMMMMMMMWX0xl,.          ",
+                                @"          .:x0NWMMMMMMMMMMMMW0c.        ",
+                                @"             ..;cxXMMMWWMMMMMMWd.       ",
+                                @"                  kMMK cOWMMMMMX:       ",
+                                @"       .lxkOO00   kMM0  .OMMMMMN:       ",
+                                @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
+                                @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
+                                @"          ,dKNMMMMMMMMMMMMWXk:.         ",
+                                @"            .,:lokXMMNOdoc;.            ",
+                                @"                 .kMM0'                 ",
+                                @"                 ;ll:.                  ",
+							};
+
+				Console.WriteLine("\n\n");
+				foreach(string line in dol)
+				Console.WriteLine(line);
                    Console.WriteLine("your total for " + breadDeal.Offer + " is $" + breadDeal.Price);
                     System.Environment.Exit(1);    
                 }
@@ -167,6 +218,31 @@ namespace PierresBakery
                 }
                 else
                 {
+                    var dol = new[]
+							{   
+                                @"                 .:xxl.                 ",
+                                @"            .,codONMMNOdol;.            ",
+                                @"          'dKWMMMMMMMMMMMMWXk;          ",
+                                @"         :KMMMMMNKNMMWXWMMMMMNd.        ",
+                                @"        '0MMMMMXc kMMK cKNXXKOd'        ",
+                                @"        ;XMMMMMXl OMM0                  ",
+                                @"        .OMMMMMMWXNMMXo,..              ",
+                                @"         ,OWMMMMMMMMMMMWX0xl,.          ",
+                                @"          .:x0NWMMMMMMMMMMMMW0c.        ",
+                                @"             ..;cxXMMMWWMMMMMMWd.       ",
+                                @"                  kMMK cOWMMMMMX:       ",
+                                @"       .lxkOO00   kMM0  .OMMMMMN:       ",
+                                @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
+                                @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
+                                @"          ,dKNMMMMMMMMMMMMWXk:.         ",
+                                @"            .,:lokXMMNOdoc;.            ",
+                                @"                 .kMM0'                 ",
+                                @"                 ;ll:.                  ",
+							};
+
+				Console.WriteLine("\n\n");
+				foreach(string line in dol)
+				Console.WriteLine(line);
                    Console.WriteLine("your total for " + singlePastry.Offer + " is $" + singlePastry.Price);
                     System.Environment.Exit(1);    
                 }
@@ -205,6 +281,31 @@ namespace PierresBakery
                 }
                 else
                 {
+                    var dol = new[]
+							{   
+                                @"                 .:xxl.                 ",
+                                @"            .,codONMMNOdol;.            ",
+                                @"          'dKWMMMMMMMMMMMMWXk;          ",
+                                @"         :KMMMMMNKNMMWXWMMMMMNd.        ",
+                                @"        '0MMMMMXc kMMK cKNXXKOd'        ",
+                                @"        ;XMMMMMXl OMM0                  ",
+                                @"        .OMMMMMMWXNMMXo,..              ",
+                                @"         ,OWMMMMMMMMMMMWX0xl,.          ",
+                                @"          .:x0NWMMMMMMMMMMMMW0c.        ",
+                                @"             ..;cxXMMMWWMMMMMMWd.       ",
+                                @"                  kMMK cOWMMMMMX:       ",
+                                @"       .lxkOO00   kMM0  .OMMMMMN:       ",
+                                @"       .xWMMMMMX  OMMK .oXMMMMMO.       ",
+                                @"        .dNMMMMMWNWMMWXXWMMMMWk'        ",
+                                @"          ,dKNMMMMMMMMMMMMWXk:.         ",
+                                @"            .,:lokXMMNOdoc;.            ",
+                                @"                 .kMM0'                 ",
+                                @"                 ;ll:.                  ",
+							};
+
+				Console.WriteLine("\n\n");
+				foreach(string line in dol)
+				Console.WriteLine(line);
                    Console.WriteLine("your total for " + threePastries.Offer + " is $" + threePastries.Price);
                     System.Environment.Exit(1);    
                 }
